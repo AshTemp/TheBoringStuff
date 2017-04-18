@@ -11,6 +11,7 @@ t.right(90)
 t.forward(75)
 
 #creates a triangle
+t.reset()
 t.left(45)
 t.forward(75)
 t.right(90)
@@ -19,6 +20,7 @@ t.right (135)
 t.forward(110)
 
 #creates a box without corners
+t.reset()
 t.forward(50)
 t.up ()
 t.forward (25)
