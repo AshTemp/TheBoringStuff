@@ -63,19 +63,19 @@ if choice == 1:
 elif choice == 2:
     print('Bienvenido al juego piedra, papel, o tijera! \n')
 
-    prompt_error = ('No es una opción')
+    prompt_error = ('No es una opcion')
     game_is_active = True
 
     while game_is_active:
         options = ('piedra', 'papel', 'tijera')
 
-        player_choice = input('¿Elegiste piedra, papel, tijera?')
+        player_choice = input('Elegiste piedra, papel, tijera?')
         computer_choice = options[random.randint(0, 2)]
 
         # Players must choose a correct option!
         while player_choice not in options:
             print(prompt_error)
-            player_choice = input('¿Elegiste piedra, papel, tijera?')
+            player_choice = input('Elegiste piedra, papel, tijera?')
 
         # What did the players select?
         print('El jugador eligió', player_choice)
