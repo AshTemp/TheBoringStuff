@@ -1,7 +1,8 @@
 import turtle
+
 t = turtle.Pen()
 
-#creates a rectangle
+# creates a rectangle
 t.forward(200)
 t.right(90)
 t.forward(75)
@@ -10,20 +11,20 @@ t.forward(200)
 t.right(90)
 t.forward(75)
 
-#creates a triangle
+# creates a triangle
 t.reset()
 t.left(45)
 t.forward(75)
 t.right(90)
 t.forward(75)
-t.right (135)
+t.right(135)
 t.forward(110)
 
-#creates a box without corners
+# creates a box without corners
 t.reset()
 t.forward(50)
-t.up ()
-t.forward (25)
+t.up()
+t.forward(25)
 t.right(90)
 t.forward(25)
 t.down()
