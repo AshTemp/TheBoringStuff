@@ -1,14 +1,14 @@
-name = 'Mary'
-password = 'swordfish'
-if name == 'Mary':
-    print ('Hello Mary')
-    if password == 'swordfish':
-        print('Access granted.')
+name = "Mary"
+password = "swordfish"
+if name == "Mary":
+    print("Hello Mary")
+    if password == "swordfish":
+        print("Access granted.")
     else:
-        print('Wrong password.')
+        print("Wrong password.")
 
-name = 'Bob'
-if name == 'Alice':
-    print('Hi, Alice.')
+name = "Bob"
+if name == "Alice":
+    print("Hi, Alice.")
 else:
-    print('Hello, stranger.')
+    print("Hello, stranger.")
